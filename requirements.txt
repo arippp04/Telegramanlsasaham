@@ -1,0 +1,9 @@
+yfinance
+pandas
+numpy
+tensorflow
+schedule
+python-telegram-bot
+beautifulsoup4
+requests
+openpyxl

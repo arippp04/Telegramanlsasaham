@@ -1,0 +1,8 @@
+{
+  "build": ["pip install -r requirements.txt"],
+  "start": "python main.py",
+  "schedule": [
+    { "cron": "0 12 * * *", "command": "python main.py" },
+    { "cron": "0 1 * * *", "command": "python main.py" }
+  ]
+}
